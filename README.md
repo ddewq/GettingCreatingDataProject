@@ -17,6 +17,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Library used:
 - dplyr (used to create tidy data)
 
+Files:
+Script name: run_analysis.R
+Code Book: Project_Data_Dictionary_ddewq.pdf
+
 
 The following actions are performed in the R script.
 
@@ -33,3 +37,5 @@ by Activity and Subject for each column by taking the average (mean) of the data
 written to a .TXT file with the write.table() function.
 
 The code is commented throughout with commentary about each step.
+
+The code book describes each of the column values in the table generated from the script.
